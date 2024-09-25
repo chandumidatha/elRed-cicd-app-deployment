@@ -4,10 +4,6 @@ files:
   - source: /
     destination: /home/ubuntu/elRed-cicd-app-deployment
 hooks:
-  BeforeInstall:
-    - location: install_dependencies.sh
-      timeout: 300
-      runas: ubuntu
   AfterInstall:
     - location: deploy.sh
       timeout: 300
