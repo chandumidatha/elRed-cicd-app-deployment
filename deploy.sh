@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/elRed-cicd-app-deployment
+cd /home/ec2-user/elRed-cicd-app-deployment
 python3 app.py
