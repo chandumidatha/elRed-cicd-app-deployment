@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/elRed-cicd-app-deployment
+    destination: /home/ec2-user/elRed-cicd-app-deployment
 hooks:
   AfterInstall:
     - location: deploy.sh
